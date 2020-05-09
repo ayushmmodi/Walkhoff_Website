@@ -82,3 +82,37 @@ a {
 .first-below p {
   line-height: 2;
 }
+.achieve{
+  padding: 60px 200px;
+  display: flex;
+  justify-content: space-evenly;
+  background: rgba(8, 4, 4, 0.5);
+}
+.achi-no{
+  padding: 20px;
+  font-weight: bold;
+  font-size: 40px;
+}
+.achi-p{
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+.ach-one img{
+padding-left: 75px;
+}
+.ach-two img{
+  padding-left: 55px;
+}
+.ach-three img{
+  padding-left: 40px;
+}
+.ach-four img{
+  padding-left: 10px; 
+}
+.ach-two h1{
+  padding-top: 30px;
+}
+.ach-three h1{
+  padding-top: 30px;
+}
