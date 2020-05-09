@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Walkhoff</title>
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="./css/style-index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
@@ -15,50 +19,88 @@
     ></script>
   </head>
   <body>
-    <section id="main" class="main">
-      <div id="navbar" class="navbar">
-        <div class="logo">
-          <img src="/images/logo.png" alt="logo" height="110" width="100" />
-          <h1 class="logo-word"><span class="text-primary">Walk</span>hoff</h1>
-        </div>
-        <ul class="nav-list">
-          <li class="nav-li list"><a href="#">Login</a></li>
-          <li class="nav-li list"><a href="#">About Us</a></li>
-          <li class="nav-li list"><a href="#">Register</a></li>
-          <li class="nav-li list"><a href="#">Contact Us</a></li>
-        </ul>
+    <header id="navbar" class="navbar">
+      <div class="logo">
+        <img src="./images/logo.png" alt="logo" height="80" width="80" />
+        <h1 class="logo-word"><span class="text-primary">Walk</span>hoff</h1>
       </div>
-      <div class="form">
-      <div class="form-logo"> <input
-          type="image"
-          src="/images/dentist.png"
-          height="100px"
-          width="100px"
-          class="logo-dentist"
-        />
-        <input type="image" src="/images/man.png" height="100px" />
+      <ul class="nav-list">
+        <li class="nav-li list">
+          <a class="current" href="./index.html">Home</a>
+        </li>
+        <li class="nav-li list"><a href="./about.html">About Us</a></li>
+        <li class="nav-li list"><a href="./services.html">Serivces</a></li>
+        <li class="nav-li list"><a href="./login.html">Login</a></li>
+        <li class="nav-li list"><a href="./register.html">Register</a></li>
+        <li class="nav-li list">
+          <a href="./contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </header>
+    <section class="first-sec">
+      <div class="first-above">
+        <h1 class="motto-first">
+          WE PRIORITY YOUR
+        </h1>
+        <h1 class="motto-second">
+          Your New
+        </h1>
+        <h1 class="motto-third">Smile</h1>
       </div>
-      <div class="img-button-text">
-        <h4 class="text-dentist">Dentist</h4>
-        <h4 class="text-patient">Patient</h4>
-      </div>
-      <form action="#">
-        <div class="form-group">
-          <div class="ffr">
-          <i class="fa fa-user icon"></i> 
-          <input class="input-field" type="text" placeholder="Username or Email"> 
-          </div>
-            <br>
-            <i class="fa fa-key icon"></i> 
-            <input class="input-field" type="text" placeholder="Password" > 
-            <br>
-            <input type="submit" value="Send" class="btn-login" />
-            <br>
-            <div class="forgot-create">
-            <a href="#">Forgot Password</a>
-            <br>
-            <a href="#"> Create Account </a>
+      <div class="first-below">
+        <div class="first-img">
+          <div class="nolinear">
+            <div>
+              <img
+                class="logo-firsts"
+                src="./images/tooth.png"
+                alt="healthy-tooth"
+                width="50px"
+              />
             </div>
+            <div class="linear">
+              <h3 class="first-head">PERIONTODOLOGY</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="first-img">
+          <div class="nolinear">
+            <div>
+              <img
+                class="logo-firsts"
+                src="./images/medical.png"
+                alt="healthy-tooth"
+                width="50px"
+              />
+            </div>
+            <div class="linear">
+              <h3 class="first-head">TOOTH WHITENING</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="first-img">
+          <div class="nolinear">
+            <div>
+              <img
+                class="logo-firsts"
+                src="./images/clinic.png"
+                alt="healthy-tooth"
+                width="50px"
+              />
+            </div>
+            <div class="linear">
+              <h3 class="first-head">PREVENTATIVE CARE</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
