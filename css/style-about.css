@@ -9,6 +9,9 @@ body {
 a {
   text-decoration: none;
 }
+.main{
+  background: url("../images/hero_bg_2.jpg") no-repeat center center/cover;
+}
 .logo {
   margin: 10px 20px;
   display: flex;
@@ -17,7 +20,7 @@ a {
   display: flex;
   justify-content: space-between;
   height: 80px;
-  background: rgba(51, 51, 51, 0.6);
+  /* background: rgba(51, 51, 51, 0.6); */
   border-radius: 5px;
 }
 #navbar ul {
@@ -52,7 +55,6 @@ a {
 }
 /* First Section */
 .first-sec {
-  background: url("../images/hero_bg_2.jpg") no-repeat center center/cover;
   padding-top: 120px;
   padding-left: 210px;
   color: #fff;
@@ -132,4 +134,31 @@ a {
   font-weight: bold;
   padding-bottom: 70px;
   text-align: center;
+}
+.den{
+  /* background-color: #333; */
+  padding: 30px 190px;
+}
+.den-one img{
+  border-radius: 50%;
+}
+.dent{
+  display: flex;
+  justify-content:space-evenly;
+  text-align: center;
+}
+.den-head{
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.about-doc{
+  padding-left: 40px;
+}
+.dento{
+  background: #fff;
+  border-radius: 5px;
+}
+.dento .about-doc{
+  padding-right: 20px;
 }
