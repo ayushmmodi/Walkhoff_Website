@@ -101,7 +101,6 @@ a {
 }
 .nolinear {
   display: flex;
-  flex: 1;
 }
 .linear {
   display: flex;
