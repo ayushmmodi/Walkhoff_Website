@@ -81,7 +81,7 @@ a {
 .first-below {
   display: flex;
   padding-bottom: 40px;
-  justify-content: start;
+  justify-content: space-evenly;
   padding-right: 100px;
 }
 .logo-firsts {
@@ -91,7 +91,7 @@ a {
 .first-head {
   padding-bottom: 5px;
 }
-.first-img {
+.first-imge {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   padding: 20px;
@@ -109,4 +109,94 @@ a {
 }
 .main{
   background: url("../images/hero_bg_1.jpg") no-repeat center center/cover;
+}
+.first-bel{
+  
+  padding-top: 40px;
+  height: 600px;
+}
+.second-line{
+  display: flex;
+  justify-content: space-evenly;
+}
+.first-img{
+  text-align: center;
+  padding-bottom: 60px;
+  color: #333;
+}
+.first-he{
+  font-size: 50px;
+  color: #333;
+  font-weight: bold;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.den{
+  background:url(../images/image.jpg) no-repeat center center/cover;
+  padding: 30px 190px;
+  color: #fff;
+}
+.den-one img{
+  border-radius: 50%;
+}
+.dent{
+  display: flex;
+  justify-content:space-evenly;
+  text-align: center;
+}
+.den-head{
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.about-doc{
+  padding-left: 40px;
+}
+.dento{
+  /* background: #fff; */
+  border-radius: 5px;
+}
+.dento .about-doc{
+  padding-right: 20px;
+}
+.story{
+  display: flex;
+  height: 768px;
+  justify-content: space-evenly;
+}
+.story-head{
+  font-size: 60px;
+  text-align: center;
+  padding: 40px;
+}
+.story-p{
+  padding: 0 120px;
+}
+.pen{
+  /* background:url(../images/image.jpg) no-repeat center center/cover; */
+  padding: 30px 190px;
+  color: #333;
+}
+.pen-one img{
+  border-radius: 50%;
+}
+.pent{
+  display: flex;
+  justify-content:space-evenly;
+  text-align: center;
+}
+.pen-head{
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.about-poc{
+  padding-left: 40px;
+}
+.pento{
+  /* background: #fff; */
+  border-radius: 5px;
+}
+.pento .about-poc{
+  padding-right: 20px;
 }
