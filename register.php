@@ -24,7 +24,7 @@
             <ul class="nav-list">
                <li class="nav-li list"><a href="./login.html">Login</a></li>
                <li class="nav-li list"><a href="./index.html">About Us</a></li>
-               <li class="nav-li list"><a class="current" href="./register.html">Register</a></li>
+               <li class="nav-li list"><a class="current" href="./register.php">Register</a></li>
                <li class="nav-li list"><a href="#">Contact Us</a></li>
             </ul>
          </div>
@@ -61,9 +61,9 @@
                <br>
                <i class="fa fa-key icon"></i> 
                <input class="input-field" type="text" placeholder="Re-Enter Password" id="repwd" name="repwd" >
-               <i class="fa fa-user icon"></i> 
+               <!-- <i class="fa fa-user icon"></i> 
                <input class="input-field" type="number" placeholder="Mobile"id="mobno" name="mobno"> 
-               <br>
+               <br> -->
                <br>
                <i class="fa fa-user icon"></i> 
                <label for="cars">Gender:</label>
@@ -73,8 +73,8 @@
                   <option value="other">Other</option>
                </select>
                <br>
-               <i class="fa fa-key icon"></i> 
-               <input type="date" class="dob"id="dob" name="dob">
+               <!-- <i class="fa fa-key icon"></i> 
+               <input type="date" class="dob"id="dob" name="dob"> -->
                <br>
                <input type="submit" value='Register' class="btn-login" id="rebtn" name="rebtn" />
             </div>
