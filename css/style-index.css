@@ -161,7 +161,7 @@ a {
 }
 .story{
   display: flex;
-  height: 768px;
+  height: 614px;
   justify-content: space-evenly;
 }
 .story-head{

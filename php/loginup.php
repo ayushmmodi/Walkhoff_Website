@@ -32,7 +32,7 @@ if (isset($_POST['lobtn']))
             if ($row = mysqli_fetch_assoc($result))
             {
                 $pwdCheck = password_verify($password, $row["pwd"]);
-                if ($pwdCheck ==  false)
+                if ($pwdCheck == false)
                 {
                     header("Location:../login.php?error=wronayushgpwd");
                     echo ($pwdCheck);
@@ -47,7 +47,7 @@ if (isset($_POST['lobtn']))
                     $_SESSION['userfname'] = $row['fname'];
                     $_SESSION['userlname'] = $row['lname'];
                     $_SESSION['username'] = $row['uname'];
-                  // echo "<script>alert('login Succes ');
+                    // echo "<script>alert('login Succes ');
                     // document.location='../login.php'</script>";
                     header("Location:../index.html?loginsuucess");
                     exit();

@@ -22,10 +22,14 @@
                <h1 class="logo-word"><span class="text-primary">Walk</span>hoff</h1>
             </div>
             <ul class="nav-list">
-               <li class="nav-li list"><a href="./login.html">Login</a></li>
-               <li class="nav-li list"><a href="./index.html">About Us</a></li>
-               <li class="nav-li list"><a class="current" href="./register.php">Register</a></li>
-               <li class="nav-li list"><a href="#">Contact Us</a></li>
+            <li class="nav-li list">
+          <a class="current" href="./index.html">Home</a>
+        </li>
+        <li class="nav-li list"><a href="./about.html">About Us</a></li>
+        <li class="nav-li list"><a href="./services.html">Serivces</a></li>
+        <li class="nav-li list"><a href="./login.php">Login</a></li>
+        <li class="nav-li list"><a class="current" href="./register.php">Register</a></li>
+        <li class="nav-li list"><a href="./contact.html">Contact Us</a></li>
             </ul>
          </div>
          <div class="form">
