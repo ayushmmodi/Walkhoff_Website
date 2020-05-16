@@ -31,45 +31,33 @@
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-stretch">
         <button class="navbar-toggler navbar-toggler btn-icon align-self-center" type="button" data-toggle="minimize">
-          <span class="mdi mdi-menu"></span>
-        </button>
-        
+          <span class="mdi mdi-menu"></span> </button>
         <ul class="navbar-nav navbar-nav-right">
           <li class="nav-item nav-profile dropdown">
             <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown"
               aria-expanded="false">
-              <div class="nav-profile-img">
-                <img src="../assets/images/faces/face1.jpg" alt="image">
-                <span class="availability-status online"></span>
-              </div>
+              <div class="nav-profile-img"> <img src="../assets/images/faces/face1.jpg" alt="image"> <span
+                  class="availability-status online"></span> </div>
               <div class="nav-profile-text">
                 <p class="mb-1 text-black">Ayush</p>
               </div>
             </a>
             <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
-              <!-- <a class="dropdown-item" href="#">
-                  <i class="mdi mdi-cached mr-2 text-success"></i> Activity Log </a> -->
-              <!-- LOgout Buuton -->
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">
-                <i class="mdi mdi-logout mr-2 text-primary"></i> Signout </a>
+              <a class="dropdown-item" href="#"> <i class="mdi mdi-logout mr-2 text-primary"></i> Signout </a>
             </div>
           </li>
-         
           <li class="nav-item dropdown">
             <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown"
-              aria-expanded="false">
-              <i class="mdi mdi-email-outline"></i>
-              <span class="count-symbol bg-warning"></span>
+              aria-expanded="false"> <i class="mdi mdi-email-outline"></i> <span class="count-symbol bg-warning"></span>
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
               aria-labelledby="messageDropdown">
               <h6 class="p-3 mb-0">Messages</h6>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <img src="../assets/images/faces/face4.jpg" alt="image" class="profile-pic">
-                </div>
+                <div class="preview-thumbnail"> <img src="../assets/images/faces/face4.jpg" alt="image"
+                    class="profile-pic"> </div>
                 <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                   <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Mark send you a message</h6>
                   <p class="text-gray mb-0"> 1 Minutes ago </p>
@@ -77,9 +65,8 @@
               </a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <img src="../assets/images/faces/face2.jpg" alt="image" class="profile-pic">
-                </div>
+                <div class="preview-thumbnail"> <img src="../assets/images/faces/face2.jpg" alt="image"
+                    class="profile-pic"> </div>
                 <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                   <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Cregh send you a message</h6>
                   <p class="text-gray mb-0"> 15 Minutes ago </p>
@@ -87,9 +74,8 @@
               </a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <img src="../assets/images/faces/face3.jpg" alt="image" class="profile-pic">
-                </div>
+                <div class="preview-thumbnail"> <img src="../assets/images/faces/face3.jpg" alt="image"
+                    class="profile-pic"> </div>
                 <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                   <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Profile picture updated</h6>
                   <p class="text-gray mb-0"> 18 Minutes ago </p>
@@ -101,9 +87,7 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#"
-              data-toggle="dropdown">
-              <i class="mdi mdi-bell-outline"></i>
-              <span class="count-symbol bg-danger"></span>
+              data-toggle="dropdown"> <i class="mdi mdi-bell-outline"></i> <span class="count-symbol bg-danger"></span>
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
               aria-labelledby="notificationDropdown">
@@ -111,9 +95,7 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item preview-item">
                 <div class="preview-thumbnail">
-                  <div class="preview-icon bg-success">
-                    <i class="mdi mdi-calendar"></i>
-                  </div>
+                  <div class="preview-icon bg-success"> <i class="mdi mdi-calendar"></i> </div>
                 </div>
                 <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                   <h6 class="preview-subject font-weight-normal mb-1">Event today</h6>
@@ -123,9 +105,7 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item preview-item">
                 <div class="preview-thumbnail">
-                  <div class="preview-icon bg-warning">
-                    <i class="mdi mdi-settings"></i>
-                  </div>
+                  <div class="preview-icon bg-warning"> <i class="mdi mdi-settings"></i> </div>
                 </div>
                 <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                   <h6 class="preview-subject font-weight-normal mb-1">Settings</h6>
@@ -135,9 +115,7 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item preview-item">
                 <div class="preview-thumbnail">
-                  <div class="preview-icon bg-info">
-                    <i class="mdi mdi-link-variant"></i>
-                  </div>
+                  <div class="preview-icon bg-info"> <i class="mdi mdi-link-variant"></i> </div>
                 </div>
                 <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                   <h6 class="preview-subject font-weight-normal mb-1">Launch Admin</h6>
@@ -149,16 +127,11 @@
             </div>
           </li>
           <li class="nav-item nav-logout d-none d-lg-block">
-            <a class="nav-link" href="#">
-              <i class="mdi mdi-power"></i>
-            </a>
+            <a class="nav-link" href="#"> <i class="mdi mdi-power"></i> </a>
           </li>
-          
         </ul>
         <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
-          data-toggle="offcanvas">
-          <span class="mdi mdi-menu"></span>
-        </button>
+          data-toggle="offcanvas"> <span class="mdi mdi-menu"></span> </button>
       </div>
     </nav>
     <!-- partial -->
@@ -168,73 +141,81 @@
         <ul class="nav">
           <li class="nav-item nav-profile">
             <a href="#" class="nav-link">
-              <div class="nav-profile-image">
-                <img src="../assets/images/faces/face1.jpg" alt="profile">
-                <span class="login-status online"></span>
+              <div class="nav-profile-image"> <img src="../assets/images/faces/face1.jpg" alt="profile"> <span
+                  class="login-status online"></span>
                 <!--change to offline or busy as needed-->
               </div>
-              <div class="nav-profile-text d-flex flex-column">
-                <span class="font-weight-bold mb-2">David Grey. H</span>
-                <span class="text-secondary text-small">Project Manager</span>
-              </div>
+              <div class="nav-profile-text d-flex flex-column"> <span class="font-weight-bold mb-2">David Grey. H</span>
+                <span class="text-secondary text-small">Project Manager</span> </div>
               <!-- <i class="mdi mdi-bookmark-check text-success nav-profile-badge"></i> -->
-
-
-
-
-              <!-- utsav -->
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../dashboard.html">
-              <span class="menu-title">Dashboard</span>
-              <i class="mdi mdi-home menu-icon"></i>
-            </a>
+            <a class="nav-link" href="dashboard.html"> <span class="menu-title">Dashboard</span> <i
+                class="mdi mdi-home menu-icon"></i> </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./conxrays.html">
-              <span class="menu-title">Convert X-Rays</span>
-              <i class="mdi mdi-contacts menu-icon"></i>
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="./deform.html">
-              <span class="menu-title">X-Ray Report</span>
-              <i class="mdi mdi-contacts menu-icon"></i>
-            </a>
+            <a class="nav-link" href="./pages/book.html"> <span class="menu-title">Book Appoinment</span> <i
+                class="mdi mdi-contacts menu-icon"></i> </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./sesch.html">
-              <span class="menu-title"> See Schedule</span>
-              <i class="mdi mdi-contacts menu-icon"></i>
-            </a>
+            <a class="nav-link" href="./pages/conxrays.html"> <span class="menu-title">Converted X-Rays</span> <i
+                class="mdi mdi-contacts menu-icon"></i> </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./chsch.html">
-              <span class="menu-title">Change Schedule</span>
-              <i class="mdi mdi-contacts menu-icon"></i>
-            </a>
+            <a class="nav-link" href="./pages/seereport.html"> <span class="menu-title"> See Report</span> <i
+                class="mdi mdi-contacts menu-icon"></i> </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./plist.html">
-              <span class="menu-title">Patient List</span>
-              <i class="mdi mdi-contacts menu-icon"></i>
-            </a>
+            <a class="nav-link" href="./pages/preapp.html"> <span class="menu-title">Previous Appoinments</span> <i
+                class="mdi mdi-contacts menu-icon"></i> </a>
           </li>
-<li class="nav-item"> <a class="nav-link" href="../pages/samples/blank-page.html"> Blank Page </a></li>
-         
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/dlist.html"> <span class="menu-title">Doctors List</span> <i
+                class="mdi mdi-contacts menu-icon"></i> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/fdform.html"> <span class="menu-title">Feedback Form</span> <i
+                class="mdi mdi-contacts menu-icon"></i> </a>
+          </li>
+          <li class="nav-item"> <a class="nav-link" href="../pages/samples/book.html"> Book Appointment </a></li>
+          <li class="nav-item"> <a class="nav-link" href="../pages/samples/seedoc.html"> See Doctor </a></li>
         </ul>
       </nav>
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
-
-          <!-- utsav patient list -->
-
-
+          <div class="col-md-8 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Appoinment Scheduling Form</h4>
+                <p class="card-description"> Please fill the following details </p>
+                <form action="../../php/bookapp.php" method="POST" class="forms-sample">
+                  <div class="form-group">
+                    <label for="exampleInputUsername1">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name" name="name" required> </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="contact no">Contact No</label>
+                    <input type="number" class="form-control" id="contactno" placeholder="Contact No" name="contactno"
+                      required> </div>
+                  <div class="form-group">
+                    <label for="docname">Doctor Name</label>
+                    <input type="text" class="form-control" id="docname" name="docname" placeholder="Doctor Name"
+                      required> </div>
+                  <div class="form-group">
+                    <label for="docname">Appoinment Date</label>
+                    <input type="date" class="form-control" id="appdate" name="appdate" required> </div>
+                  <button type="submit" class="btn btn-gradient-info  mr-2" id="submit" name="submit">Submit</button>
+                  <button class="btn btn-dark">Cancel</button>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
-        
         <!-- partial -->
       </div>
       <!-- main-panel ends -->
