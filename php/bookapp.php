@@ -24,9 +24,10 @@ if (isset($_POST['submit']))
                 }
                 else
                 {
-                    mysqli_stmt_bind_param($stmt, "ssssi", $name, $email, $num, $docname,$appdate);
+                    mysqli_stmt_bind_param($stmt, "ssiss", $name, $email, $num, $docname,$appdate);
                     mysqli_stmt_execute($stmt);
-                    header("Location:../../../patient-dashboard/dashboard.html");
+                    echo "<script>alert('Appointment Scheduled Successfully');
+                    document.location='../patient-dashboard/pages/book.php'</script>";
                     exit();
                 }
     mysqli_stmt_close($stmt);

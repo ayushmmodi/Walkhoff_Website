@@ -151,31 +151,31 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="dashboard.html"> <span class="menu-title">Dashboard</span> <i
+            <a class="nav-link" href="../dashboard.html"> <span class="menu-title">Dashboard</span> <i
                 class="mdi mdi-home menu-icon"></i> </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/book.html"> <span class="menu-title">Book Appoinment</span> <i
+            <a class="nav-link" href="./book.php"> <span class="menu-title">Book Appoinment</span> <i
                 class="mdi mdi-contacts menu-icon"></i> </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/conxrays.html"> <span class="menu-title">Converted X-Rays</span> <i
+            <a class="nav-link" href="../pages/conxrays.html"> <span class="menu-title">Converted X-Rays</span> <i
                 class="mdi mdi-contacts menu-icon"></i> </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/seereport.html"> <span class="menu-title"> See Report</span> <i
+            <a class="nav-link" href="../pages/seereport.html"> <span class="menu-title"> See Report</span> <i
                 class="mdi mdi-contacts menu-icon"></i> </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/preapp.html"> <span class="menu-title">Previous Appoinments</span> <i
+            <a class="nav-link" href="../pages/preapp.html"> <span class="menu-title">Previous Appoinments</span> <i
                 class="mdi mdi-contacts menu-icon"></i> </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/dlist.html"> <span class="menu-title">Doctors List</span> <i
+            <a class="nav-link" href="../pages/dlist.html"> <span class="menu-title">Doctors List</span> <i
                 class="mdi mdi-contacts menu-icon"></i> </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/fdform.html"> <span class="menu-title">Feedback Form</span> <i
+            <a class="nav-link" href="../pages/fdform.html"> <span class="menu-title">Feedback Form</span> <i
                 class="mdi mdi-contacts menu-icon"></i> </a>
           </li>
           <li class="nav-item"> <a class="nav-link" href="../pages/samples/book.html"> Book Appointment </a></li>

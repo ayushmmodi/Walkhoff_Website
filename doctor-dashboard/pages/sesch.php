@@ -177,12 +177,6 @@
                 <span class="font-weight-bold mb-2">David Grey. H</span>
                 <span class="text-secondary text-small">Project Manager</span>
               </div>
-              <!-- <i class="mdi mdi-bookmark-check text-success nav-profile-badge"></i> -->
-
-
-
-
-              <!-- utsav -->
             </a>
           </li>
           <li class="nav-item">
@@ -205,7 +199,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./sesch.html">
+            <a class="nav-link" href="./sesch.php">
               <span class="menu-title"> See Schedule</span>
               <i class="mdi mdi-contacts menu-icon"></i>
             </a>
@@ -222,17 +216,49 @@
               <i class="mdi mdi-contacts menu-icon"></i>
             </a>
           </li>
-
-         
         </ul>
       </nav>
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
 
-         
-
-
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Upcoming Appointment</h4>
+              <p class="card-description">Patient's List
+              </p>
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th>User</th>
+                    <th>Product</th>
+                    <th>Sale</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <?php
+$conn = mysqli_connect("localhost", "root", "", "walkhoff");
+// Check connection
+if ($conn->connect_error) {
+die("Connection failed: " . $conn->connect_error);
+}
+$sql = "SELECT * FROM schedule";
+$result = $conn->query($sql);
+if ($result->num_rows > 0) {
+// output data of each row
+while($row = $result->fetch_assoc()) {
+echo "<tr><td>" . $row["userid"]. "</td><td>" . $row["name"] . 
+"</td><td>"
+. $row["email"]. "</td><td>" . $row["contact"]. "</td><td>" . $row["docname"]. "</td><td>" . $row["appdate"]. "</td></tr>";
+}
+echo "</table>";
+} else { echo "0 results"; }
+$conn->close();
+?>
+              </table>
+            </div>
+          </div>
+        </div>
         </div>
         
         <!-- partial -->
@@ -255,5 +281,4 @@
   <!-- Custom js for this page -->
   <!-- End custom js for this page -->
 </body>
-
 </html>
